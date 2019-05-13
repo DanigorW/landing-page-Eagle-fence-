@@ -157,4 +157,8 @@ ul li a {
   .form button {
     width: 300px;
   }
+
+  .container-item-1 {
+    height: 100%;
+  }
 }
