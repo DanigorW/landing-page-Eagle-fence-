@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+img,
+button {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.line {
+  height: 3px;
+  width: 500px;
+  background: red;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding: 1rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 25rem;
+}
+
+.logo img {
+  width: 350px;
+  height: auto;
+}
+
+span {
+  margin-left: 1rem;
+}
+
+ul li a {
+  width: 20px;
+  height: 20px;
+  margin-left: 2rem;
+  color: #232323;
+  background: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.container-item-1 {
+  text-align: center;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/pic-bg-1030x572.png") no-repeat center center/cover;
+}
+
+.container-item-1 h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.container-item-1 p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.container-item-2 {
+  background: url("../img/pic-boy.png") no-repeat center center/cover;
+}
+
+.red-text p {
+  color: crimson;
+  font-size: 1.3rem;
+}
+
+.red-text .red-color {
+  color: red;
+}
+
+.form input {
+  background: none;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 0.7rem;
+  margin: 0 0.2rem;
+  text-align: right;
+  color: #fff;
+}
+
+.form button {
+  background: red;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1.3rem;
+  width: 570px;
+}
+
+.form button i {
+  margin-right: 0.2rem;
+
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+
+  .main-nav {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav ul {
+    margin-top: 2rem;
+  }
+
+  .form input {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+  }
+
+  .form button {
+    width: 300px;
+  }
+}
