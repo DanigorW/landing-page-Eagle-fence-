@@ -165,4 +165,8 @@ ul li a {
   .container-item-2 {
     display: none;
   }
+
+  .line {
+    width: 300px;
+  }
 }
