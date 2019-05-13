@@ -161,4 +161,8 @@ ul li a {
   .container-item-1 {
     height: 100%;
   }
+
+  .container-item-2 {
+    display: none;
+  }
 }
