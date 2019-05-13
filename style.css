@@ -68,12 +68,12 @@ ul li a {
 
 .container-item-1 {
   text-align: center;
-  height: 84vh;
+  height: 84.1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url("../img/pic-bg-1030x572.png") no-repeat center center/cover;
+  background: url("./img/pic-bg-1030x572.png") no-repeat center center/cover;
 }
 
 .container-item-1 h1 {
@@ -89,7 +89,7 @@ ul li a {
 }
 
 .container-item-2 {
-  background: url("../img/pic-boy.png") no-repeat center center/cover;
+  background: url("./img/pic-boy.png") no-repeat center center/cover;
 }
 
 .red-text p {
